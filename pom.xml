@@ -41,9 +41,15 @@
         </pluginRepository>
     </pluginRepositories>
     <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://10.7.14.75:8081/repository/nextgen-snapshot/</url>
+        </repository>
+
         <snapshotRepository>
             <id>snapshots</id>
-            <name>Internal Snapshots</name>
+            <name>Snapshots</name>
             <url>http://10.7.14.75:8081/repository/nextgen-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
