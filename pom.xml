@@ -41,11 +41,11 @@
         </pluginRepository>
     </pluginRepositories>
     <distributionManagement>
-        <snapshotRepository>
+        <repository>
             <id>releases</id>
             <name>Internal Snapshots</name>
             <url>http://10.7.14.75:8081/repository/maven-releases/</url>
-        </snapshotRepository>
+        </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Internal Snapshots</name>
